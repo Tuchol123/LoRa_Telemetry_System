@@ -108,16 +108,17 @@ Additional test results:
 
 ```
 telemetry-system/
- ┣ 📂 src/
- ┃ ┣ 📜 kod_wszystko.py          # Raspberry Pi data acquisition script
- ┃ ┗ 📜 matlab_app.mlapp         # MATLAB receiver and visualization app
+ ┣ 📂 Transmitter/
+ ┃ ┣ 📜 transmitterCode.py          # Raspberry Pi data acquisition script
  ┣ 📂 schematics/
  ┃ ┣ 🖼️ wiring_diagram.png       # System wiring
- ┃ ┗ 🧩 pcb_design.kicad_pcb     # PCB layout
- ┣ 📂 data/
- ┃ ┗ 📊 example_output.csv       # Sample telemetry data
+ ┣ 📂 Receiver/
+ ┃ ┗ 📜 recivedData.m       # Recived data from transmitter in HEX
+ ┃ ┗ 📜 conversion.m       # Conversion data to DEC
+ ┃ ┗ 📜 convertedData.m       # Collect converted data and show in diagrams
+ ┣ 📂 App/
+ ┃ ┗ 📜 Aplikacja_Inzynierka.m       # Application with interface to collect data
  ┣ 📜 README.md
- ┗ 📜 LICENSE
 ```
 
 ---
