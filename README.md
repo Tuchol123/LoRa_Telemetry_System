@@ -1,12 +1,5 @@
 # 🚗 Vehicle Telemetry System – Speed and Braking Monitoring
 
-**Author:** Adam Tuchowski  
-**Supervisor:** Dr inż. Artur Szczęsny  
-**Institution:** Lodz University of Technology, Institute of Electrical Engineering Systems (I26)  
-**Year:** 2025  
-
----
-
 ## 📘 Project Overview
 
 This repository contains the **source code**, **hardware schematics**, and **documentation** for a telemetry system designed to monitor vehicle parameters such as **speed** and **acceleration/braking**.  
@@ -154,4 +147,5 @@ You are free to use, modify, and distribute this project with proper attribution
 
 **Adam Tuchowski**  
 Student of Mechatronics, Lodz University of Technology  
-Member of **Lodz Solar Team** & **Lodz Racing Team**
+Member of **Lodz Racing Team**
+Year 2025
