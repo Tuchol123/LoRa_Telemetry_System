@@ -26,7 +26,7 @@ The telemetry system consists of the following main components:
 ## 💻 Software
 
 ### 🐍 Raspberry Pi (Python)
-The main script (`kod_wszystko.py`) performs:
+The transmitterCode performs:
 - Initialization of sensors (GPS, accelerometer)  
 - Data acquisition and conversion to hexadecimal  
 - LoRa transmission using AT commands  
